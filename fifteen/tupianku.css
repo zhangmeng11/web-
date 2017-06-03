@@ -1,0 +1,26 @@
+div.image img{
+	display:inline;
+	margin:3px;
+	border:1px solid #bebebe;
+	width:200px;
+	height:160px;
+}
+.image{
+	float:left;
+}
+img{
+	opacity:0.5;
+}
+a:hover img{
+	opacity:1;
+}
+.image a:hover img
+{
+	border:1px solid #333333;
+}
+.image .list{
+	float:left;
+	border:1px solid #ccc;
+	padding:5px;
+	margin-right:4px;
+}
